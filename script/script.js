@@ -14,24 +14,30 @@ function goTesti(){
 }
 
 
+
 function testiValidation(){
 
     if(!checkNameFill()){
         alert("you must fill this name field");
         event.preventDefault();
 
-    }else if(!checkNameIsNumber()){
+    }else if(checkNameIsNumber()){
         alert("you cant use number in this field");
         event.preventDefault();
 
     }else if(!checkRate()){
-        alert("you must fill this name field");
+        alert("you must fill this rate field");
         event.preventDefault();
     }else if(!checkPhoneFill()){
-        alert("you must fill this name field");
+        alert("you must fill this phone field");
         event.preventDefault();    
     }else if(checkCommentValidation()){
         alert("you must fill this field more than 10 characters");
+
+    }else if(checkPhoneIsAlphabet){
+        alert("you must fill this field with numeric");
+        event.preventDefault();
+
 
     }
 
@@ -71,7 +77,7 @@ function checkNameIsNumber(){
 }
 
 function checkRate(){
-    var flag = document.getElementById('rate'.value);
+    var flag = document.getElementById('rate').value;
 
     if(flag == ' '){
         return false;
@@ -87,12 +93,33 @@ function checkRate(){
 function checkPhoneFill(){
 
     var checkPhone = document.getElementById('phone').value;
-    if(checkPhone == ' '){
+
+
+    if(checkPhone == ''){
         return false;
 
     }else{
         return true;
 
+    }
+
+}
+
+function checkPhoneIsAlphabet(){
+    var phone = document.getElementById('phone').value;
+    var flagCheckAlphabet = false;
+
+    for(let i = 0; i < phone.length; i++){
+        if(isNaN(phone[i])){
+            flagCheckNumber = true;
+        }
+
+    }
+
+    if(flagCheckAlphabet == true){
+        return true;
+    }else{
+        return false;
     }
 
 }
