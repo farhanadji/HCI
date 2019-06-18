@@ -168,13 +168,13 @@ hr.above-nav {
 
 }
 
-.img-news-parent {
-  margin: 0 auto;
-}
 .img-news-parent img{
   margin-top: 40px;
-  margin-bottom: 50px;
-  margin-left: 30%;
+  margin-bottom:40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 @media only screen and (max-width:600px){
@@ -224,6 +224,11 @@ hr.above-nav {
 
   .footer {
     height: 250px;
+  }
+
+  .img-news-parent img{
+    margin-left: 25%;
+    width: 500px;
   }
 
 }
