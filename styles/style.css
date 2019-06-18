@@ -202,6 +202,49 @@ hr.above-nav {
   width: 600px;
 }
 
+/* foods */
+
+.content {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .foods {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  width: 400px;
+  height: 400px;
+}
+
+.content .foods:hover {
+  background-color: #bdbdbd;
+  cursor: pointer;
+}
+
+.content .foods img {
+  width: 90%;
+}
+
+.content .foods p {
+  width: fit-content;
+  font-size: 20px;
+}
+
+.content .foods .food-name {
+  margin-top: 20px;
+  border-bottom: 1px solid #111111;
+}
+
+
+/* foods */
+
 @media only screen and (max-width:600px){
   .navbar {
     margin-top: 0px;
