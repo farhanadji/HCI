@@ -177,6 +177,27 @@ hr.above-nav {
   width: 50%;
 }
 
+.grid{
+  padding-top: 50px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.col-50 {
+  width: 40%;
+  display: inline-block;
+}
+
+.about-footer {
+  margin-top: 180px;
+}
+
+.col-40 {
+  width: 40%;
+  margin-left: 19%;
+  display: inline-block;
+}
+
 @media only screen and (max-width:600px){
   .navbar {
       display: flex;
@@ -230,6 +251,30 @@ hr.above-nav {
     margin-left: 25%;
     width: 500px;
   }
-
 }
 
+.img-about {
+  width: 100%;
+}
+
+@media only screen and (max-width:1150px){
+  .grid{
+    padding-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .img-about {
+    margin: 0 auto;
+  }
+
+  .col-50 {
+    width: 100%;
+    display: block;
+  }
+  .col-40 {
+    padding-top: 15px;
+    width: 100%;
+    display: block;
+    margin-left: 0px;
+  }
+}
