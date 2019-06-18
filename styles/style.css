@@ -168,6 +168,11 @@ hr.above-nav {
 
 }
 
+img.img-order {
+  width: 100%;
+  margin-bottom: 20%;
+}
+
 .img-news-parent img{
   margin-top: 40px;
   margin-bottom:40px;
@@ -266,7 +271,7 @@ hr.above-nav {
 
 @media only screen and (max-width:1150px){
   .grid{
-    padding-top: 50px;
+    padding-top: 100px;
     width: 90%;
     margin: 0 auto;
   }
@@ -375,4 +380,5 @@ hr.above-nav {
 .testimoniForm form .reset button:hover {
   background-color: #FF4500;
 }
+
 
