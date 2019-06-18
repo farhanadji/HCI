@@ -77,6 +77,10 @@
   margin: 0;
 }
 
+.active {
+  background: darkgray;
+}
+
 .product ul li:hover {
   background: #929292;
   color: white;
