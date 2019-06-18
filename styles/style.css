@@ -37,6 +37,7 @@
 .news-text {
   font-size: 15px;
   margin: 0 20%;
+  text-align: center;
 }
 
 .navbar > div{
@@ -113,12 +114,14 @@ a:click{
 .footer {
   background: #323232;
   color: white;
+  height: 400px;
   margin-top: 40px;
   padding: 10px;
   height: 150px;
 }
 
 .news-title {
+  font-size: 20px;
   text-align: center;
 }
 
@@ -161,8 +164,17 @@ hr.above-nav {
 
 .title{
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
 
+}
+
+.img-news-parent {
+  margin: 0 auto;
+}
+.img-news-parent img{
+  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-left: 30%;
 }
 
 @media only screen and (max-width:600px){
@@ -205,11 +217,13 @@ hr.above-nav {
     display: inherit;
     margin-top: 25px;
   }
-
   .news-text {
     font-size: 15px;
     margin: 0 40px;
-    text-align: center;
+  }
+
+  .footer {
+    height: 250px;
   }
 
 }
