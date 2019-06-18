@@ -240,7 +240,7 @@ hr.above-nav {
   }
   
   .product:hover > ul {
-    margin-top: 1em;
+    /* margin-top: 1em; */
     padding: 0;
     position: absolute;
     display: inline-block;
