@@ -298,7 +298,6 @@ hr.above-nav {
   width: 750px;
   font-size: 30px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #111111;
 }
 
 .testimoniForm form {
@@ -311,7 +310,7 @@ hr.above-nav {
   margin: 30px 0;
 }
 .testimoniForm .formChild {
-  margin-left: 20%;
+  margin-left: 30%;
 }
 
 .testimoniForm form .textBox input{
