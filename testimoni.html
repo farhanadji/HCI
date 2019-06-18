@@ -21,9 +21,51 @@
             <div onclick=goHow();>How to Order</div>
             <div onclick=goTesti();>Testimoni</div>
         </div>
-        <div class="content">
-            
+
+        <div class="testimoniForm">
+        <div class="title">
+            <p>How do you think about our Products and Services?</p>
         </div>
+        <form class="formChild">
+            <div class="textBox">
+                <input type="text" placeholder="Full Name" name="name" id="name">
+            </div>
+            <div class="textBox">
+                <input type="text" placeholder="E-mail" name="email" id="email">
+            </div>
+            <div class="rateProduct">
+                <span>Rate our product</span>
+                <select name="hobi" id="rate">
+                    <option id="empty" value=" "></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div class="textarea">
+                <textarea rows="7" placeholder="Comments" id="comments"></textarea>
+            </div>
+            <div class="textarea">
+                <textarea rows="7" placeholder="Feedbacks" id="feedbacks"></textarea>
+            </div>
+            <div class="radioBtn">
+                <span>Publish Confirmation</span>
+                <input id="no" type="radio" name="confirmation">No
+                <input id="yes" type="radio" name="confirmation">Yes
+            </div>
+            <div>
+                <input type="checkbox" name="check" id="check" value="Terms"> <label>Agree terms and conditions</label>
+            </div>
+            <div class="confirm">
+                <button onclick="validation()">Submit</button>
+            </div>
+            <div class="reset">
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
         <div class="footer">
             <div class="footercontain">
                 <div class="logoFooter"><img src="images/logohorizontall copy.png" alt="logo"width="200px" ></div>
