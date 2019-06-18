@@ -79,6 +79,8 @@
 
 .active {
   background: darkgray;
+  width: 100%;
+  text-align: center;
 }
 
 .product ul li:hover {
