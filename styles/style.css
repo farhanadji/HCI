@@ -297,7 +297,6 @@ hr.above-nav {
 .testimoniForm .title p {
   width: 750px;
   font-size: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding-bottom: 10px;
   border-bottom: 1px solid #111111;
 }
@@ -316,25 +315,27 @@ hr.above-nav {
 }
 
 .testimoniForm form .textBox input{
-  width: 30%;
-  height: 40px;
+  width: 60%;
+  height: 50px;
   border: 2px solid #e5e3e3;
   border-radius: 5px;
   padding: 0 8px;
+  font-size: 18px;
   outline: none;
 }
 
 .testimoniForm form .rateProduct select #empty{
   display: none;
+  font-size: 18px;
 }
 
 .testimoniForm form .textarea textarea {
   width: 60%;
-  font-family: Helvetica, sans-serif;
   border: 2px solid #e5e3e3;
   border-radius: 5px;
   padding: 8px;
   outline: none;
+  font-size: 18px;
 }
 
 .testimoniForm form .radioBtn input {
@@ -345,10 +346,12 @@ hr.above-nav {
   font-family: 'Calibri', sans-serif;
   font-size: 15px;
   color: #ffffff;
-  background-color: #89FF4A;
+  background-color: green;
   border: none;
   border-radius: 5px;
   padding: 5px 10px;
+  width: 200px;
+  height: 50px;
   outline: none;
   cursor: pointer;
 }
@@ -363,6 +366,7 @@ hr.above-nav {
   color: #ffffff;
   background-color: red;
   border: none;
+  width: 200px;
   border-radius: 5px;
   padding: 5px 10px;
   outline: none;
