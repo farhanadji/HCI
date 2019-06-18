@@ -202,12 +202,29 @@ hr.above-nav {
   width: 600px;
 }
 
+img.img-obat {
+  margin-left: 30%;
+  width: 600px;
+}
+
+.medicine-content {
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
 @media only screen and (max-width:600px){
   .navbar {
     margin-top: 0px;
     display: flex;
     flex-direction: column;
     height: 300px;
+  }
+
+  img.img-obat {
+    margin-left: 10%!important;
+    width: 450px;
   }
   
   .testimoniForm form .textBox input{
