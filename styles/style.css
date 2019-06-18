@@ -79,8 +79,6 @@
 
 .active {
   background: darkgray;
-  width: 100%;
-  text-align: center;
 }
 
 .product ul li:hover {
@@ -264,6 +262,12 @@ img.img-obat {
 /* 
 >>>>>>> e9c1d7dfac5ad84c38fc5177a9f3e9afc0adf278 */
 @media only screen and (max-width:600px){
+  .active {
+    background: darkgray;
+    width: 100%;
+    text-align: center;
+  }
+
   .navbar {
     margin-top: 0px;
     display: flex;
